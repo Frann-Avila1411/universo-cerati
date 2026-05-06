@@ -12,6 +12,12 @@ export interface PlanetData {
   speed: number;
   lyric: string;
   songs: Song[];
+  nebula: {
+    scale: number;
+    intensity: number;
+    ringStrength: number;
+    twist: number;
+  };
 }
 
 export const universeData: PlanetData[] = [
@@ -23,6 +29,12 @@ export const universeData: PlanetData[] = [
     radius: 4,
     speed: 0.01,
     lyric: "",
+    nebula: {
+      scale: 1.06,
+      intensity: 0.38,
+      ringStrength: 0.46,
+      twist: 0.16,
+    },
     songs: [
       { title: "A merced", symbolism: "Siento que aquí me disuelvo. Es como si el amor me volviera permeable, sin defensa. No es debilidad: es entrega absoluta. Cerati convierte la vulnerabilidad en un estado casi místico, donde perder el control es una forma de iluminación." },
       { title: "Amor Amarillo", symbolism: "Este amor no es rojo, no es pasional en lo evidente… es amarillo: tibio, solar, constante. Lo percibo como una energía vital que no quema, pero tampoco se apaga. Es alquimia pura: transformar lo cotidiano en algo luminoso." },
@@ -38,6 +50,12 @@ export const universeData: PlanetData[] = [
     radius: 6,
     speed: 0.008,
     lyric: "Cuando no hay más que decirnos...",
+    nebula: {
+      scale: 1.14,
+      intensity: 0.5,
+      ringStrength: 0.72,
+      twist: 0.26,
+    },
     songs: [
       { title: "Bocanada", symbolism: "Cuando no hay más que decirnos... Siento que salgo a la superficie después de haber estado sumergido mucho tiempo. Es aire, pero también es conciencia. Una inhalación que me devuelve a mí mismo." },
       { title: "Puente", symbolism: "Aquí experimento conexión. No hay separación entre yo y el otro. Es un puente emocional, pero también espiritual: cruzarlo implica confiar en lo invisible." },
@@ -54,6 +72,12 @@ export const universeData: PlanetData[] = [
     radius: 8,
     speed: 0.006,
     lyric: "Cosas imposibles...",
+    nebula: {
+      scale: 1.2,
+      intensity: 0.58,
+      ringStrength: 0.86,
+      twist: 0.5,
+    },
     songs: [
       { title: "Vivo", symbolism: "Estoy presente. No hay pasado ni futuro. Solo este instante expandido, es una meditación para entender que el fin de amar es sentirse más vivo..." },
       { title: "Sudestada", symbolism: "Sudestada es tormenta interna. Me siento arrastrado por emociones que no controlo, pero que necesito atravesar. Es catarsis para enfrentar lo que sentimos." },
@@ -68,6 +92,12 @@ export const universeData: PlanetData[] = [
     radius: 10,
     speed: 0.005,
     lyric: "Separarse de la especie...",
+    nebula: {
+      scale: 1.1,
+      intensity: 0.47,
+      ringStrength: 0.68,
+      twist: 0.2,
+    },
     songs: [
       { title: "Me quedo aquí", symbolism: "Decido permanecer. Es una afirmación de existencia. No huyo, no escapo: me planto." },
       { title: "Crimen", symbolism: "Crimen es dolor elegante. Me duele, pero no grito. Es un sufrimiento contenido, casi estético. Como si amar también implicara aceptar la herida." },
@@ -83,6 +113,12 @@ export const universeData: PlanetData[] = [
     radius: 12,
     speed: 0.004,
     lyric: "Magia veneno...",
+    nebula: {
+      scale: 1.26,
+      intensity: 0.42,
+      ringStrength: 0.58,
+      twist: 0.14,
+    },
     songs: [
       { title: "Fuerza Natural", symbolism: "Siento que vuelvo a la tierra. A lo esencial. Es como recordar que soy parte de algo más grande." },
       { title: "Magia", symbolism: "La magia no está afuera: está en la percepción. En cómo miro el mundo. Todo me sirve, nada se pierde: es el encantamiento cotidiano, me enseña que lo extraordinario está en lo simple." },
